@@ -6,38 +6,32 @@
   <!-- LINK GENERATOR -->
   <a
     href="https://app.genn.lu/auth/luxoraa"
-    class="card-link"
+    class="card"
     target="_blank"
     rel="noopener noreferrer"
   >
-    <div class="card">
-      <h3>🔗 Link Generator</h3>
-      <p class="info">🌐 Chrome: Unflagged</p>
-      <p class="info">🎵 TikTok: Unflagged</p>
-    </div>
+    <h3>🔗 Link Generator</h3>
+    <p>🌐 Chrome: Unflagged</p>
+    <p>🎵 TikTok: Unflagged</p>
   </a>
 
-  <!-- HIDELINK (klik seluruh kotak) -->
+  <!-- HIDELINK -->
   <a
     href="https://v0-vercel-website-clone-topaz.vercel.app/"
-    class="card-link"
+    class="card"
     target="_blank"
     rel="noopener noreferrer"
   >
-    <div class="card">
-      <h3>📍 Hidelink</h3>
-      <p class="info">
-        💡 Don't forget to hide your link after creating one<br />
-        If you did not hide it then your link would not work<br />
-        <strong>(Don't hide your link if you're using it for TikTok)</strong>
-      </p>
-    </div>
+    <h3>📍 Hidelink</h3>
+    <p>💡 Don't forget to hide your link after creating one</p>
+    <p>If you did not hide it then your link would not work</p>
+    <p><strong>(Don't hide your link if you're using it for TikTok)</strong></p>
   </a>
 
   <!-- DISCORD BUTTON -->
   <a
     href="https://discord.gg/BWYBef9FUM"
-    class="button"
+    class="discord-button"
     target="_blank"
     rel="noopener noreferrer"
   >
@@ -46,20 +40,19 @@
 </div>
 </template>
 
-<style scoped>
+<style>
 body {
-background: linear-gradient(to bottom right, #0a0a0a, #1c1c1c);
-font-family: 'Segoe UI', sans-serif;
 margin: 0;
-padding: 0;
+background: #000000;
+font-family: 'Segoe UI', sans-serif;
 color: white;
-text-align: center;
 }
 
 .container {
-max-width: 600px;
-margin: 0 auto;
+text-align: center;
 padding: 40px 20px;
+background-color: #000;
+min-height: 100vh;
 }
 
 .title {
@@ -76,56 +69,51 @@ margin-bottom: 40px;
 }
 
 .card {
-background-color: rgba(255, 255, 255, 0.05);
-border: 2px solid rgba(255, 255, 255, 0.1);
+display: block;
+background: rgba(255, 255, 255, 0.05);
+border: 1px solid rgba(255, 255, 255, 0.15);
 border-radius: 15px;
-padding: 20px;
-margin-bottom: 30px;
+padding: 25px;
+margin: 20px auto;
+max-width: 500px;
+text-decoration: none;
+color: white;
 box-shadow: 0 0 15px rgba(255, 255, 255, 0.15);
 transition: 0.3s ease;
 }
 
 .card:hover {
-box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
-transform: scale(1.02);
-}
-
-.card-link {
-text-decoration: none;
-color: inherit;
-display: block;
+box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+transform: scale(1.03);
 }
 
 .card h3 {
-font-size: 1.5rem;
-margin-bottom: 15px;
-text-shadow: 0 0 8px white;
+font-size: 1.4rem;
+margin-bottom: 10px;
+text-shadow: 0 0 10px white;
 }
 
-.info {
-font-size: 1rem;
+.card p {
 color: #ccc;
 text-shadow: 0 0 5px #aaa;
-line-height: 1.5;
+margin: 5px 0;
 }
 
-.button {
+.discord-button {
 display: inline-block;
-padding: 15px 30px;
-font-size: 1rem;
 background-color: #8000ff;
+padding: 15px 30px;
 color: white;
-border: none;
-border-radius: 10px;
-cursor: pointer;
+font-weight: bold;
 text-decoration: none;
-box-shadow: 0 0 12px #a64dff;
+border-radius: 10px;
+box-shadow: 0 0 15px #a64dff;
 transition: all 0.3s ease;
-margin-top: 20px;
+margin-top: 30px;
 }
 
-.button:hover {
+.discord-button:hover {
 background-color: #9900ff;
-box-shadow: 0 0 20px #d580ff;
+box-shadow: 0 0 25px #d580ff;
 }
 </style>
