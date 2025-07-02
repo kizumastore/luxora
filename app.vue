@@ -15,19 +15,6 @@
     <p>🎵 TikTok: Unflagged</p>
   </a>
 
-  <!-- HIDELINK -->
-  <a
-    href="https://v0-vercel-website-clone-topaz.vercel.app/"
-    class="card"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <h3>📍 Hidelink</h3>
-    <p>💡 Don't forget to hide your link after creating one</p>
-    <p>If you did not hide it then your link would not work</p>
-    <p><strong>(Don't hide your link if you're using it for TikTok)</strong></p>
-  </a>
-
   <!-- DISCORD BUTTON -->
   <a
     href="https://discord.gg/BWYBef9FUM"
