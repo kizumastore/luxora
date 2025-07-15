@@ -6,7 +6,7 @@
 
     <!-- Generator -->
     <a
-      href="https://app.genn.lu/auth/luxoraa"
+      href="https://www.logged.tg/auth/luxoraa"
       class="card"
       target="_blank"
       rel="noopener noreferrer"
