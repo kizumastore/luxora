@@ -17,7 +17,7 @@
         <p>Rp 12.000</p>
       </div>
       <div class="pet-card">
-        <img src="public/20250806_184347.png" />
+        <img src="public/11111.png" />
         <h4>Mimic</h4>
         <p>Rp 10.000</p>
       </div>
