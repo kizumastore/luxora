@@ -4,24 +4,12 @@
       <h1 class="title">𝐋𝐔𝐗𝐎𝐑𝐀</h1>
       <h2 class="subtitle">THE #1 SITE</h2>
 
-     <!-- Pet Catalog -->
-<div class="pet-grid">
-  <div class="pet-card">
-    <img src="https://static.wikia.nocookie.net/growagarden/images/7/79/Corrupted_Kitsune.png" alt="Corrupted Kitsune" />
-    <h4>Corrupted Kitsune</h4>
-    <p>Rp 15.000</p>
-  </div>
-  <div class="pet-card">
-    <img src="https://static.wikia.nocookie.net/growagarden/images/0/0d/Raiju.png/revision/latest?cb=20250726083117" alt="Raiju" />
-    <h4>Raiju</h4>
-    <p>Rp 12.000</p>
-  </div>
-  <div class="pet-card">
-    <img src="https://static.wikia.nocookie.net/growagarden/images/3/35/Mimic.png/revision/latest?cb=20250726123045" alt="Mimic" />
-    <h4>Mimic</h4>
-    <p>Rp 10.000</p>
-  </div>
-</div>
+      <!-- Pet Card -->
+      <div class="pet-card">
+        <img src="https://growagarden.fandom.com/wiki/Raiju?file=Raiju.png" />
+        <h4>Corrupted Kitsune</h4>
+        <p>Rp 15.000</p>
+      </div>
 
       <!-- Generator -->
       <a
@@ -61,6 +49,7 @@
 </template>
 
 <style>
+/* BACKGROUND ANIMATED */
 .bg-wrap {
   background: linear-gradient(-45deg, #12001d, #25003e, #1f002b, #32004a);
   background-size: 400% 400%;
@@ -171,45 +160,38 @@ body {
   transform: scale(1.05);
 }
 
-/* Pet Styles */
-.pet-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 50px;
-}
-
+/* PET CARD */
 .pet-card {
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
   padding: 20px;
-  width: 200px;
-  text-align: center;
-  backdrop-filter: blur(6px);
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.07);
-  transition: transform 0.3s ease;
+  margin: 20px auto;
+  max-width: 400px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .pet-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
+  box-shadow: 0 0 30px rgba(168, 85, 247, 0.5);
 }
 
 .pet-card img {
-  width: 100%;
+  max-width: 100%;
   border-radius: 12px;
   margin-bottom: 15px;
 }
 
 .pet-card h4 {
-  font-size: 1.2rem;
-  color: #fff;
-  margin: 10px 0 5px;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color: #ffffff;
+  text-shadow: 0 0 10px #c084fc;
 }
 
 .pet-card p {
-  color: #a0f0ff;
-  font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  color: #ccc;
 }
 </style>
