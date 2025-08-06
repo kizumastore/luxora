@@ -21,6 +21,11 @@
         <h4>Mimic</h4>
         <p>Rp 10.000</p>
       </div>
+        <div class="pet-card">
+        <img src="https://raw.githubusercontent.com/kizumastore/luxora/refs/heads/main/public/DragonflyIcon.webp" alt="Raiju" />
+        <h4>Dragon fly</h4>
+        <p>Rp 12.000</p>
+      </div>
     </div>
   </div>
 </div>
